@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(meson --version)",
+      "Bash(ninja --version)",
+      "Bash(wayland-scanner --version)",
+      "Bash(dpkg -l libxkbcommon-dev)",
+      "Bash(make *)",
+      "Bash(dpkg -L libwlroots-0.18-dev)",
+      "Read(//usr/include/wlroots-0.18/**)",
+      "Read(//usr/include/**)",
+      "Bash(pkg-config --variable=pkgdatadir wlr-protocols)",
+      "Read(//usr/share/**)",
+      "Read(//usr/**)"
+    ]
+  }
+}
